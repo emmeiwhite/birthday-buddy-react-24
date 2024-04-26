@@ -1,10 +1,9 @@
+import BirthdayList from "./components/BirthdayList";
 const App = () => {
   return (
     <main>
-      <section className="container">
-        <h1 className="text-3xl font-bold font-roboto underline">
-          Hello world!
-        </h1>
+      <section className="container mx-auto grid place-items-center h-screen w-screen">
+        <BirthdayList />
       </section>
     </main>
   );
